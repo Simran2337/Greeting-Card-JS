@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prata&family=Vollkorn:ital,wght@1,500&display=swap');
+
+* {
+    overflow: hidden;
+}
+
+.body {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(53, 52, 52);
+    color: whitesmoke;
+    font-weight: bold;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: 100vh;
+}
+
+.footer {
+    background: rgb(37, 37, 37);
+    width: 100%;
+    text-align: center;
+    height: 50px !important;
+    font-family: 'Vollkorn';
+    padding: 10px;
+    position: fixed !important;
+    left: 0;
+    bottom: 0;
+    color: whitesmoke;
+}
+
+.greeting {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 5px 3px 10px rgb(114, 114, 114);
+    align-items: center;
+    margin-top: 5%;
+    transition: transform 0.3s;
+    max-width: 400px;
+}
